@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <device id="retina6_0" orientation="landscape" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,30 +13,27 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="844" height="390"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v0A-cG-V71">
-                                <rect key="frame" x="16" y="67" width="358" height="351.66666666666669"/>
+                                <rect key="frame" x="34.666666666666686" y="67" width="774.66666666666652" height="124.66666666666669"/>
                                 <color key="backgroundColor" systemColor="systemCyanColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="48K-zL-swH">
-                                <rect key="frame" x="16" y="438.66666666666674" width="358" height="351.33333333333326"/>
+                                <rect key="frame" x="34.666666666666686" y="211.66666666666666" width="774.66666666666652" height="124.33333333333334"/>
                                 <color key="backgroundColor" red="0.91976243257522583" green="0.47105923727456361" blue="0.48650159529221726" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGray4Color"/>
                         <constraints>
-                            <constraint firstItem="v0A-cG-V71" firstAttribute="width" secondItem="48K-zL-swH" secondAttribute="width" id="0mg-1P-uV9"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="v0A-cG-V71" secondAttribute="trailing" constant="16" id="5Bx-C3-Iwt"/>
+                            <constraint firstItem="v0A-cG-V71" firstAttribute="width" secondItem="48K-zL-swH" secondAttribute="width" id="7GL-0F-MCY"/>
                             <constraint firstItem="v0A-cG-V71" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="9L5-En-U3f"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="48K-zL-swH" secondAttribute="trailing" constant="16" id="FTu-eG-FxR"/>
-                            <constraint firstItem="v0A-cG-V71" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Ieh-jD-dGv"/>
                             <constraint firstItem="48K-zL-swH" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="M4x-Wh-LeE"/>
-                            <constraint firstItem="48K-zL-swH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Wte-rG-jSc"/>
                             <constraint firstItem="48K-zL-swH" firstAttribute="top" secondItem="v0A-cG-V71" secondAttribute="bottom" constant="20" id="dF8-6l-4Ls"/>
                             <constraint firstItem="v0A-cG-V71" firstAttribute="height" secondItem="48K-zL-swH" secondAttribute="height" id="dJ4-yw-RwW"/>
+                            <constraint firstItem="48K-zL-swH" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.917949" id="g52-3D-4a9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="48K-zL-swH" secondAttribute="bottom" constant="20" id="pnn-G8-bVN"/>
                             <constraint firstItem="v0A-cG-V71" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="uaD-gz-RdQ"/>
                         </constraints>
